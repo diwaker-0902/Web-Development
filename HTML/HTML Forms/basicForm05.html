@@ -1,0 +1,72 @@
+<!-- Basic Form -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h2>Event Registration</h2>
+
+    <label for="name">Name :</label>
+    <input type="text" id="name">      <br><br>
+
+    <label for="mail">Email Id :</label>
+    <input type="email" id="mail">      <br><br>
+
+    <label for="phoneNumber">Phone :</label>
+    <input type="tel" id="phoneNumber">     <br><br>
+
+    <label for="fileUpload">Resume : </label>
+    <input type="file" id="fileUpload">     <br><br>
+
+    <label for="counter">Experience(in years) : </label>
+    <input type="number" id="counter" min="0" max="51" placeholder="0">
+<br><br>
+    <label for="occupationType">occupation :</label>
+    <select name="occupationType" id="occupationType">
+        <option value="student">Student</option>
+        <option value="professional">professional</option>
+        <option value="other">Other</option>
+    </select>
+
+<br><br>
+
+
+   <fieldset>
+    <legend>Topics of Interest</legend>
+
+    <label for="checkbox1">HTML</label>
+    <input type="checkbox" id="checkbox2">
+
+    <label for="checkbox2">CSS</label>
+    <input type="checkbox" id="checkbox2">
+
+    <label for="checkbox3">JavaScript</label>
+    <input type="checkbox" id="checkbox3">
+
+
+   </fieldset>              <br><br>
+
+   <label for="textarea1">Comments : </label>
+   <br>
+   <textarea name="textarea1" id="textarea1" cols="21" rows="5"></textarea>
+   <!-- <br> -->
+
+   <input type="submit" value="Register">
+
+
+   <fieldset>
+    <legend>Availability : </legend>
+
+    <label for="radio1">Full-time</label>
+    <input type="radio" id="radio1" name="radio">    
+    <!-- name=radio dene se Full-time and Part-time aapas main link ho cheka hain so koi ek hi select hoga -->
+    <label for="radio2">Part-time</label>
+    <input type="radio" id="radio2" name="radio">
+   </fieldset>
+
+</body>
+</html>

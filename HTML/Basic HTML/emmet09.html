@@ -1,0 +1,102 @@
+<!-- emmet - emmet is the essential toolkit for web-developers and it is default in the vscode -->
+
+<!-- 1. child -->
+    <!-- we can use > operator to nest elements inside each other -->
+        <!-- div>ul>li -->
+
+ 
+         <div>
+                <ul>
+                    <li></li>
+                </ul>
+        </div>
+  
+
+
+<!-- 2. sibling -->
+ <!-- use + operator to place elements near each other, on the same level -->
+            <!-- div+p+bq -->
+
+<div></div>
+<p></p>
+<blockquote></blockquote> 
+
+<!-- 3. grouping -->
+
+                <!-- div>(header>ul>li*2>a)+footer>p -->
+
+                <div>
+                    <header>
+                        <ul>
+                            <li><a href=""></a></li>
+                            <li><a href=""></a></li>
+                        </ul>
+                    </header>
+                    <footer>
+                        <p></p>
+                    </footer>
+                </div>
+
+<!-- 4. id and class                 -->
+<!-- 
+                elem#id to reach the id attributes
+                elem.class to reach the class attributes
+                div#header+div.page+div#footer.class1.class2.class3 -->
+
+<div id="header"></div>
+<div class="page"></div>
+<div id="footer" class="class1 class2 class3"></div>
+
+<!-- 5. item numbering -->
+<!-- With multiplication * operator you can repeat elements, but with $ you can number them.  -->
+
+                            <!-- ul>li.item$*5 -->
+
+<ul>
+    <li class="item1"></li>
+    <li class="item2"></li>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+</ul>
+
+<!-- 6. With multiplication * operator you can repeat elements, but with $ you can number them.  -->
+<!-- ul>li.item$$$*5 -->
+<ul>
+    <li class="item001"></li>
+    <li class="item002"></li>
+    <li class="item003"></li>
+    <li class="item004"></li>
+    <li class="item005"></li>
+</ul>
+
+<!-- 7. changing number base and directon -->
+<!-- With @ modifier, you can change numbering direction (ascending or descending) and base (e.g. start value). -->
+<!-- ul>li.item$@-*5 -->
+
+<ul>
+    <li class="item5"></li>
+    <li class="item4"></li>
+    <li class="item3"></li>
+    <li class="item2"></li>
+    <li class="item1"></li>
+</ul>
+
+<!-- 8. To change counter base value, add @N modifier to $: -->
+<!-- ul>li.item$@3*5 -->
+<ul>
+    <li class="item3"></li>
+    <li class="item4"></li>
+    <li class="item5"></li>
+    <li class="item6"></li>
+    <li class="item7"></li>
+</ul>
+
+9. Text : {}
+<!-- ou can use curly braces to add text to element -->   
+                <!-- s{click me} -->
+
+        <a href="">click me</a>
+
+
+        
