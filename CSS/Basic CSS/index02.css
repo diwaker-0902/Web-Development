@@ -1,0 +1,16 @@
+h1, h2, button{
+    color: orangered
+}
+
+button{
+    background-color: #00ff00;
+    text-decoration-color: #ff00ff;
+    /* background-color: #ffff00; */
+    width: 70px;
+}
+
+body{
+    /* background-color: rgb(255, 200, 0); */
+    background-color: #ffff00;
+}
+

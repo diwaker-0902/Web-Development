@@ -1,0 +1,16 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#outer { 
+        font-size: 25px;
+}
+/* yaha abhi parent div main 25 set kiya tohh wo child means inner div main bhi hoga  */
+#inner {
+        font-size: 11px;
+}

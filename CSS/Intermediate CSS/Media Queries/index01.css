@@ -1,0 +1,32 @@
+div {
+    height: 50px;
+    width: 50px;
+    background-color: bisque;
+}
+
+@media (width : 597px) {        /*ekdum 600 par hi background-color red hoga na kam na jyada fix 597px */
+    div {
+        background-color: red;
+    }
+}
+
+
+
+@media (min-width : 600px) {       /* means jb tak 600 hain tab tak OK but 600 se jyada hote hi background-color will be green*/
+    div {
+        background-color: chartreuse;
+    }
+}
+
+@media (max-width : 300px) {      /* means 300px se less hote hi background-color blue ho jaega */
+    div {
+        background-color: blue;
+    }
+}
+
+
+@media (min-width : 700px) and (max-width : 800px) {
+    div {
+        background-color : red;
+    }
+}

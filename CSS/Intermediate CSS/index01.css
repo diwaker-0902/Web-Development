@@ -1,0 +1,43 @@
+div{
+    height: 100px;
+    background-color: aqua;
+    width: 100px;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 0px;  
+    /* border-radius: 50%             border-radius ko hum px and % main bhi de sakte hain*/
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    /* padding shorthand is : top right bottom left -> clockwise */
+
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+    /* margin shorthand : clockwise --> top right bottom left */
+}
+
+button{
+    width: 200px;
+    height: 51px;
+    background-color: aquamarine;
+    border-width: 5px;
+    border-style: dashed;
+    border-color: pink;
+    text-align: center;
+
+
+}
+h1{
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    background-color: #ffff00;
+}
+
+/* #top{ */
+    /* justify-content: center; */
+/* } */

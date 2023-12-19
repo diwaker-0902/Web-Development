@@ -1,0 +1,27 @@
+div {
+    height : 100px;
+    width : 100px;
+    background-color: aquamarine;
+    border: 2px solid black;   
+    transition-property: all;          /* means sari property ke upar transition apply hona chahiye */
+    transition-duration: 2s;           /*means ab transitions change hone main 2 seconds lagenge*/
+    transition-timing-function: steps(3);  /* means jab color change karega tohh yaha 3 diya hain tohh 3 steps main hi karega  */
+    transition-delay: 1s;                  /*means transition karne ke liye 1 second ka delay karega*/
+}
+
+div:hover{                                /* means jese hi div par hover karenge tohh background-color red ho jaega  */
+    background-color: red;
+}
+
+div:active {
+    background-color: pink;          /* click karke hold bhi karna hain*/ 
+}
+
+/* Transition Shorthand */
+/*
+property name / duration / timing-function / delay
+
+transition: font-size 2s ease-in-out 0.2s; 
+
+
+*/

@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border-width: 2px;
+    border-style: solid;
+    border-color: blue;
+    display: inline-block;
+}
+
+body {
+    background-image: url("Lion.jpg");
+    background-size: cover;
+    /* cover means agar image display se large hain tohh jitna display main utna theek and remaining wala nahi dikhega */
+}
+
+
+
+#box6 {
+    height: 50px;
+    width: 50px;
+    background-image: url("Lion.jpg");
+    background-size: contain; 
+    /* contain means agar photo display se small hain tohh repeat ho jaegi */
+}
+
+#box5 {
+    background-image: url("Lion.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* no repeat ka means ki image agar background se small hain tohh image again repeat nahi hogi jese ki #box6 main ho rahi hain */
+}    
+
+
+#box4 {
+    background-image: url("Lion.jpg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    /* auto means ekdum auto show hogi image yaha par ekdum small div hain tohh image jyada zoom hain auto main */
+}

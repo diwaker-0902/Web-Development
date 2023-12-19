@@ -1,0 +1,32 @@
+.navbar {
+    background-color: pink;
+    display: flex;                 /* sare elements ek hi line main aa jaenge */
+    justify-content: center;       /* sare elements ek sath center main aa jaenge but without gap*/
+    justify-content: space-evenly; /* sare elements ke beech main equal space aa jaega */
+}
+
+a {
+    text-decoration: none;     /* to remove the underline of anchor tag */
+    color: black;            /* */
+    background-color: red;
+}
+
+li {
+    list-style-type: none;    /* ul ka dot ko remove karne ke liye*/
+    display: inline;
+}
+
+.outer {
+    height: 400px;
+    width: 400px;
+    background-color: black;
+    display: flex;                   /* display-flex outer div container bn jaega  */
+    justify-content: center;       /* abhi tohh ye only left se right main center hua hain, kyuki abhi ka direction row hain */
+    align-items: center;           /* so ye align-items cross axis ke along items ko align karne ke kaam aata hain */
+}
+
+.inner {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+}

@@ -1,0 +1,43 @@
+<!-- Flex Properties -->
+<!-- for flex item -->
+
+<!-- align self : alignment of individual along the cross axis
+     flex-grow  : how much a flex item will grow relative to the rest of the flex items if space is available
+    flex-shrink : how much a flex item will shrink relative to the rest of the space is available
+
+
+    flex-shrink: 2;       aisa karne se agar 5 box hain tohh selected box *2 jyada shrink hoga w.r.t remaining boxes
+    flex-grow: 2;         aisa karne se agar 5 box hain tohh selected box *2 jyada grow hoga w.r.t remaining boxes
+means kisi bhi box ko jaldi shrink karana hain tohh factor ko 1 se jyada kar do and agar less karana hain tohh 1 se decrease kar do
+And normal shrink ke liye factor ko 1 kar do
+ -->
+
+
+ <!-- Practice Set -->
+
+ <!-- que - 01 : Create a navbar with 4 options in the form of anchor tags inside list items.
+                 Now, use flexbox to place them all apaced equality in a single line -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index03.css">
+ </head>
+ <body>
+    <div>
+        <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Help</a></li>
+        </ul>
+    </div>
+
+    <!-- question is : use flexbox to center one div inside another div -->
+    <div class="outer">
+        <div class="inner"></div>
+    </div>
+ </body>
+ </html>

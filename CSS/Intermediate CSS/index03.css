@@ -1,0 +1,46 @@
+div { 
+   margin: 25px;
+   padding: 25px;
+   display: inline;
+   background-color: rgba(255, 0, 0, 1)
+   /* display: inline-block; */
+}
+
+/* button {
+    background-color: pink;
+    border-radius: 11px;
+    display: block;
+} */
+/*
+#one {
+    background-color: pink;
+    width: 100px;
+    height: 100px;
+     display: inline; 
+ } 
+   */
+
+#two {
+    background-color: aqua;
+    width: 25pxpx;
+    height: 25px;
+    background-color: rgba(255, 0, 0, 0.4);
+    /* display: none; */
+    /* visibility: hidden;      hidden ke case main jagah reserved rahegi*/ 
+    /* display none means gayab ho gya Box2 and no space is reserved for the Box2 */
+}
+
+/*
+#three {
+    background-color: orangered;
+    width: 100px;
+    height: 100px;
+} 
+
+p {
+    background-color: aquamarine;
+    height: 100px;
+    width: 100px;
+   
+}
+*/ 

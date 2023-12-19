@@ -1,0 +1,42 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+h1 {
+    position: relative;
+    top: 50px;
+}
+#box1 {
+    position: sticky;
+    top: 94px;
+    z-index: -1;
+ 
+}
+
+#box2 {
+    position: relative;
+    top: 18px;
+    left: 20px;
+    z-index: 1;
+
+}
+
+#box3 {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+
+}
+
+#box4 {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    right: 0px;
+    /* means ab ye box4 like ek footer ki tarah lag raha hain */
+}

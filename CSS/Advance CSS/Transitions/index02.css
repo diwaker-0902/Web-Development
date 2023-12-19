@@ -1,0 +1,40 @@
+div {
+    height: 100px;
+    width: 100px;
+    background-color: orangered;
+    /* transform: rotate(45deg); */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    /* transform: rotate(180deg); */
+    /* rotate: x 180deg;                      This is rotation about x-axis */
+    transition: all 2s ease-in;
+
+
+
+
+
+
+/*  scale means large ya small hona */
+    transform: scale(2);               /* isme x & y dono axis ke along rotation ho raha hain */
+    transform: scale(3, 1);            /* means x-axis ke along 3 and y-axis ke along 1 */
+    transform: scaleX(1);
+}
+
+div:hover {          
+    transform: scaleX(2);
+
+    transform: translate(20px, 40px);
+    /* transform: translateX(50px); */
+    /* transform: translateY(50px); */
+
+}
+
+#boy {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 300px;
+    left: 300px;
+    transform: skew(45deg);
+}

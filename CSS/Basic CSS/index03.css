@@ -1,0 +1,25 @@
+*{
+    background-color: #ffff00;
+    color: orangered;
+}
+
+/* So, sabse pehle Universal Selector sabka color yellow kar dega and then h1 apply ho jaega due to the higher priority */
+/* Because CSS main jo bhi baad main apply hota hain uski priority jyada hoti hain */
+h1{
+    color: green;
+}
+
+#headingOne{
+    color: black;
+}
+
+#headingTwo{
+    color: blue;
+}
+/* And here heading3 has the default color of Selector */
+/* If 2 id's ka same color hi set karna hain tohh hum dono ko id se color nahi denge instead of this use Class Selector */
+
+.myClass{
+    background-color: magenta;
+    color: black;
+}

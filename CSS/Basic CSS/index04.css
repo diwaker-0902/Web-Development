@@ -1,0 +1,15 @@
+/* Practice Set */
+#box{
+    background-color: blue;
+    color: white;
+}
+
+.heading{
+    color: orangered;
+}
+/* or */
+/* 
+h1, h2, h3{
+    color: orangered;
+}    
+    */

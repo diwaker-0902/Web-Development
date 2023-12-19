@@ -1,0 +1,25 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+#navbar {
+    background-color: black;
+    height: 40px;
+}
+
+button {
+    background-color: #f08804;
+}
+
+#logo {
+    color: #f08804;
+    font-size: 25px;
+}
+
+a {
+    margin-right: 200px;
+    text-decoration: none;
+    /* text-decoration none se underline remove ho aega */
+}

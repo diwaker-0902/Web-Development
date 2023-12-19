@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    display: inline-block;
+}
+
+/* Flexbox main item space ke according apne aap ko fit kar lete hain jab tak inka content allow kar rha hain (like agar content ka text size hi flexbox box se large hain tohh kaha se fit hoga  )  */
+#container {
+    width: 800px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    /* flex-direction: row; (default), means main axis row hai and elements will be left to right */
+    /* flex-direction: row-reverse;    means main axis row hain and elements will be arranged from right to left */
+    /* similarly, flex-direction: column; main main axis will be from top to bottom and elements will be arranged from top to bottom  */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+}
+
+#box1 {
+    background-color: aqua;
+}
+
+#box2 {
+    background-color: aquamarine;
+}
+
+#box3 {
+    background-color: orangered;
+}
+
+#box4 {
+    background-color: antiquewhite;
+}
+
+#box5 {
+    background-color: blueviolet;
+}
+
+#box6 {
+    background-color: orange;
+}
